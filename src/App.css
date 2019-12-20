@@ -1,0 +1,8 @@
+body{
+  position:fixed;
+  background-image:url("./img/backend.png");
+  background-repeat: no-repeat;
+ 
+  width:100%;
+  height:900px;
+}

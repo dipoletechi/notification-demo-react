@@ -1,0 +1,53 @@
+@import "../NotificationMessage/NotificationMessage.scss";
+button:focus {outline:0;}
+
+.notificationbtns{ 
+  height: 300px; 
+  display: none;
+}
+
+.notificationbtns ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.notificationbtns ul li{
+  margin-top: 8px;
+}
+
+.notificationbtns button{
+    background-color: rgba(50,0,255,0.5);
+    border: none;
+    color: white;
+    border-radius: 16px;
+    padding: 6px;
+}
+
+.notificationbtn{
+  cursor: pointer;
+}
+
+.buttons {
+  position: absolute;
+  margin-top: 77px;
+  margin-left: 13px;
+  margin-bottom: 1500px;
+  .notify_btn {
+    background: white;
+    padding: 15px;
+    box-shadow: 5px 5px 15px grey;
+    position: relative;
+    font-family: "Manjari", sans-serif;
+    border-radius: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
